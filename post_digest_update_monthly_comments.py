@@ -3,7 +3,7 @@ __author__ = 'danilcha'
 
 import vk
 
-token = '43accf2d6642a5d3a0202c6801a9530cc0c0784533d7e4d04e55984c129fbcf789724f8a1ff3da5d409dc'
+token = 'TOKEN'
 vkapi = vk.API(access_token=token)
 
 wall_message_text= "Денежные призы и призы от ТК в этом месяце получают самые активные комментаторы паблика @typical_kirovohrad.\n" \

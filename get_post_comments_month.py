@@ -11,7 +11,7 @@ start = time()
 # db = MySQLdb.connect("192.168.1.25","tk_activity","tk_activity","tk_activity" )
 db = MySQLdb.connect("localhost","tk_activity","tk_activity","tk_activity" )
 cursor = db.cursor()
-token = '43accf2d6642a5d3a0202c6801a9530cc0c0784533d7e4d04e55984c129fbcf789724f8a1ff3da5d409dc'
+token = 'TOKEN'
 owner_id = "-46631810"
 today = datetime.date.today()
 last_date = str(today - datetime.timedelta(days=31))
