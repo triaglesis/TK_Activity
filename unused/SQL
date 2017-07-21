@@ -1,0 +1,10 @@
+SELECT `WALL_POSTS`.`wall_post_created_by`,
+    sum(`WALL_POSTS`.`wall_post_comm`),
+    sum(`WALL_POSTS`.`wall_post_like`),
+    sum(`WALL_POSTS`.`wall_post_rep`),
+    count(`WALL_POSTS`.`wall_post_created_by`)
+FROM `tk_activity`.`WALL_POSTS`
+WHERE wall_post_created_by = 164941898 AND wall_post_date between "2015-12-05" AND "2015-12-12"
+#WHERE wall_post_date between "2015-12-06" AND "2015-12-12"
+GROUP BY wall_post_created_by
+;
